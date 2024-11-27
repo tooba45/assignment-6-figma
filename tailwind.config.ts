@@ -8,6 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+        screens:{
+          'max-sm' :{
+                 'max': '520px'
+          },
+          'max-md' :{
+                 'max' : '768px'
+          },
+          'max-lg':{
+                 'max' : '1024px'
+          }
+               
+        },
+
+
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
