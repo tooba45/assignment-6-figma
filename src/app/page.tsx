@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./components/hero";
 import ExploreCourses from "./components/explorecourses";
 import Header from "./components/header";
